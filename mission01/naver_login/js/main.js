@@ -37,15 +37,12 @@ let pwPass = false;
 
 email.addEventListener('input', function(){
   emailValue = email.value;
-  console.log(emailValue);
 
   if(emailReg(emailValue)){
-    //this.classList.add('is-active');
     idError.classList.remove('is--invalid')
 
     emailPass = true;
   }else{
-    //this.classList.remove('is-active');
     idError.classList.add('is--invalid')
 
     emailPass = false;
@@ -55,14 +52,11 @@ email.addEventListener('input', function(){
 
 pw.addEventListener('input', function(){
   pwValue = pw.value
-  console.log(pwValue);
   if(pwReg(pwValue)){
-    //this.classList.add('is-active');
     pwError.classList.remove('is--invalid')
 
     pwPass = true;
   }else{
-    //this.classList.remove('is-active');
     pwError.classList.add('is--invalid')
 
     pwPass = false
@@ -74,7 +68,6 @@ button.addEventListener('click', (e) =>{
   e.preventDefault();
   if(emailPass && pwPass){
     if(user.id === emailValue && user.pw === pwValue){
-      console.log('로그인');
       window.location.href = 'welcome.html';
     }
   }
