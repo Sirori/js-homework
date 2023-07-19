@@ -63,3 +63,6 @@ button.addEventListener('click', (e) =>{
 
 ---
 ## 결과
+![화면_기록_2023-07-16_오후_9_26_27_AdobeExpress](https://github.com/Sirori/js-homework/assets/116864776/df4a291a-6d9d-407c-b8a8-35c125c486e1)
+
+
