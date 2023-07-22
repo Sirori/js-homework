@@ -27,7 +27,7 @@ function setBgColor(node, first, second){
 }
 
 function setImage(target, index){
-  if (typeof node === "string") node = getNode(node);
+  if (typeof target === "string") target = getNode(target);
 
   attr(target, 'src', `./assets/${data[index - 1].name.toLowerCase()}.jpeg`)
   attr(target, 'alt', data[index -1].alt)
@@ -43,7 +43,6 @@ function handleSlider(e){
   
   let target = e.target.closest('li');
   let button = e.target.closest('button');
-  console.log(target);
   
   if(!target || !button) return;
   
