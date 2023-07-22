@@ -90,3 +90,6 @@ nav.addEventListener('click',handleSlider);
 
 ---
 ## 결과물
+
+![화면_기록_2023-07-23_오전_12_29_15_AdobeExpress](https://github.com/Sirori/js-homework/assets/116864776/d2ee087f-d225-414a-a44a-61d1c31c3c25)
+
